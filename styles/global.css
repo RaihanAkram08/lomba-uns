@@ -1,0 +1,227 @@
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 0px;
+    justify-content: center;
+    background-color: #2a2b5c;
+}
+
+footer .wrap-logo {
+    width: 100%;
+    color: white;
+    position: relative;
+    padding: 0px 0 125px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+    align-items: end;
+}
+
+footer .wrap-logo .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 93%;
+}
+
+footer .wrap-logo .logo a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer .wrap-logo .logo a img {
+    width: 70px;
+}
+
+footer .wrap-logo .logo a h1 {
+    text-shadow: 1px 2px 6px #9D00FF;
+    font-size: 50px;
+    font-family: "SUSE", system-ui;
+}
+
+footer .wrap-logo .logo p {
+    font-size: 20px;
+    margin-left: 18px;
+    color: white;
+}
+
+footer .wrap-logo > p {
+    width: 88%;
+    padding: 10px 10px 20px 10px;
+    color: white;
+}
+
+footer .wrap-menu-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 100px 0 35px 0px;
+}
+
+footer .wrap-menu-item .wrap-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+footer .wrap-menu-item .wrap-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0 50px;
+}
+
+footer .wrap-menu-item .wrap-menu ul li {
+   padding-bottom: 7px;
+}
+
+footer .wrap-menu-item .wrap-menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 7px;
+    font-size: 18px;
+}
+
+footer .wrap-menu-item .list-item {
+    display: flex;
+    gap: 25px;
+    width: 90%;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+footer .wrap-menu-item .list-item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    transition: color 0.5s ease-in-out;
+}
+
+footer .wrap-menu-item .list-item li a:hover {
+    color: #9c9c9c;
+}
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        padding: 0px 0px;
+        justify-content: center;
+        background-color: #2a2b5c;
+    }
+    
+    footer .wrap-logo {
+        width: 45%;
+        color: white;
+        position: relative;
+        padding: 200px 0 125px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-items: end;
+    }
+    
+    footer .wrap-logo .logo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 80%;
+    }
+    
+    footer .wrap-logo .logo a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    footer .wrap-logo .logo a img {
+        width: 20%;
+    }
+    
+    footer .wrap-logo .logo a h1 {
+        text-shadow: 1px 2px 6px #9D00FF;
+        font-size: 50px;
+        font-family: "SUSE", system-ui;
+    }
+    
+    footer .wrap-logo .logo p {
+        font-size: 20px;
+        margin-left: 15px;
+        color: white;
+    }
+    
+    footer .wrap-logo > p {
+        width: 77%;
+        padding: 10px 10px 20px 10px;
+        color: white;
+    }
+    
+    footer .wrap-menu-item {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        justify-content: flex-end;
+        align-items: end;
+        padding: 120px 0 125px 0px;
+    }
+    
+    footer .wrap-menu-item .wrap-menu {
+        display: flex;
+        width: 90%;
+        gap: 40px;
+        padding-bottom: 10px;
+    }
+    
+    footer .wrap-menu-item .wrap-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 42%;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    footer .wrap-menu-item .wrap-menu ul li {
+       padding-bottom: 7px;
+    }
+    
+    footer .wrap-menu-item .wrap-menu ul li a {
+        text-decoration: none;
+        color: white;
+        padding-bottom: 7px;
+        font-size: 18px;
+    }
+    
+    footer .wrap-menu-item .list-item {
+        display: flex;
+        gap: 25px;
+        width: 90%;
+    }
+    
+    footer .wrap-menu-item .list-item {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    footer .wrap-menu-item .list-item li a {
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        transition: color 0.5s ease-in-out;
+    }
+    
+    footer .wrap-menu-item .list-item li a:hover {
+        color: #9c9c9c;
+    }
+}
